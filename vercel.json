@@ -1,18 +1,15 @@
 {
+    "version": 3.9,
     "builds": [
         {
-            "src":"main.py",
+            "src":"./main.py",
             "use":"@vercel/python"
         }
     ],
     "routes":[
         {
             "src":"/(.*)",
-            "dest":"main.py"
+            "dest":"/"
         }
-    ],
-    
-    "functions": {
-        "runtime": "python3.9"
-      }
+    ]
 }
