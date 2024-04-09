@@ -1,3 +1,4 @@
 # Ignore PyTorch and torchvision directories
 /torch/
 /torchvision/
+.vercel
